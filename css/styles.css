@@ -1,0 +1,421 @@
+:root {
+    --main-color: #212121;
+    --header-nav-hover-color: #2196F3;
+    --main-title-color: #FFFFFF; 
+    --regular-text-colour: #757575;
+    --main-background: #2F303A;
+    --second-background: #F5F4FA;
+    --footer-contacts:rgba(255, 255, 255, 0.6);
+    }
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    }
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+/* Header box */
+
+.header-logo {
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    display: inline-block;
+}
+.header-list {
+    display: flex;
+}
+.header-item-link {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: inline-block;
+}
+.header-item:not(:last-child){
+    margin-right: 50px;
+}
+.header-contacts-list {
+    display: flex;
+    margin-left: auto;
+}
+.header-contacts-item:not(:last-child) {
+    margin-right: 50px; 
+}
+.header-navigation {
+    display: flex;
+    align-items: center;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ECECEC;
+}
+.header-contacts-link {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: inline-block;
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+/* main box */
+.main-section {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.main-section-title {
+    margin-bottom: 30px;
+}
+.main-button-container {
+    display: flex;
+    justify-content: center;  
+}
+
+/* peculiarities section box */
+.second-main {
+    padding-bottom: 0px;
+}
+.second-main-list {
+    display: flex;
+}    
+.second-main-item-title {
+    margin-bottom: 10px;
+    width: 270px;
+}
+.second-main-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+/*  what are we doing box */
+
+.third-main-list {
+    display: flex;
+}
+.third-main-item:not(:last-child) {
+    margin-right: 30px;
+}
+.third-main-title {
+    margin-bottom: 50px;
+}
+
+/* our team section box */
+
+.main-team-title {
+    margin-bottom: 50px;
+}
+.main-team-list {
+    display: flex;
+}
+.main-team-item:not(:last-child) {
+    margin-right: 30px;
+}
+.main-team-item-title {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 10px 0;
+}
+.main-team-item-text {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+/* footer box */
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+} 
+.footer-logo {
+    display: block;
+}
+.footer-address {
+    margin-top: 20px;
+} 
+.footer-addres-link-add {
+    display: block;
+}
+.footer-addres-link {
+    display: block;
+}
+
+.footer-address-item:not(:last-child) {
+    margin-bottom: 5px;
+    
+}
+
+
+
+
+/* portfolio filter box */
+
+.main-portfolio-filter-list {
+    display: flex;
+    justify-content: center;
+}
+.main-portfolio-filter-item {
+    display: flex;
+}
+.main-portfolio-filter-item:not(:last-child) {
+    margin-right: 8px;
+}
+/* Portfolio items box */
+
+.potfolio-projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-right: -30px;
+    margin-bottom: -30px;
+}
+.potfolio-projects-item {
+    flex-basis: calc(100%/3 - 30px);
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.potfolio-projects-item:nth-child(3n) {
+    margin-right: 0;
+}
+.projects-main-text {
+    border: 1px solid #EEEEEE;
+    border-top: none;
+    width: 370px;
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-bottom: 20px;
+    
+}
+.potfolio-projects-item-text {
+    margin-top: 4px;
+} 
+
+
+body {
+    font-family: Roboto , sans-serif;
+    background-color: #fff;
+    color: var(--main-color);
+    letter-spacing: 0.03em;
+    font-size: 14px;
+}
+
+
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+/* header logo */
+.header-logo {
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+.header-logo-part {
+    color: #000000;
+}
+
+/* header nav list */
+
+.header-item-link {
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--main-color);
+}
+.header-item-link:hover {
+    color: var(--header-nav-hover-color);
+}
+.header-item-link:focus {
+    color: var(--header-nav-hover-color);
+}
+
+/* header contacts */
+
+.header-contacts-link {
+    font-weight: 500;
+    line-height: 1.14 ;
+    letter-spacing: 0.02em;
+    color: var(--regular-text-colour);
+
+}
+.header-contacts-link:hover {
+    color: var(--header-nav-hover-color);
+}
+.header-contacts-link:focus {
+    color: var(--header-nav-hover-color);
+}
+
+/* main section */
+.main-section-portfolio-title {
+    display: none;
+}
+.main-section {
+    background-color:var(--main-background) ;
+}
+.main-section-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-title-color)
+}
+.main-section-button {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.06em;
+    color: var(--main-title-color);
+    background-color: var(--header-nav-hover-color);
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    border: none;
+}
+/* second main */
+.second-main-title {
+    display: none;
+}
+.second-main-item-title {
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+.second-main-item-text {
+    line-height: 1.71;
+    color: var(--regular-text-colour); 
+}
+/* third main */
+.third-main-title {
+
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: var(--main-color);
+}
+/* main team */
+.main-team {
+    background-color: var(--second-background);
+}
+.main-team-title {
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: var(--main-color);
+}
+.main-team-item {
+    background-color: var(--main-title-color);
+}
+.main-team-item-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--main-color);
+}
+.main-team-item-text {
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--regular-text-colour)
+}
+/* Footer */
+.footer {
+    background-color: var(--main-background);
+}
+/* footer logo */
+.footer-logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.footer-logo-part {
+    color: #fff;
+}
+.footer-addres-link-add {
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.footer-addres-link {
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--footer-contacts);
+}
+.footer-addres-link:hover,
+.footer-addres-link:focus {
+    color: #fff;
+}
+/* prtfolio filters */
+.main-portfolio-filter-item-button {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    background-color: var(--second-background);
+    border: none;
+    cursor: pointer;
+    padding: 6px 22px 6px 22px; 
+    
+}
+.main-portfolio-filter-item-button:hover {
+    background-color: var(--header-nav-hover-color);
+    color: var(--main-title-color);
+}
+.main-portfolio-filter-item-button:focus {
+    background-color: var(--header-nav-hover-color);
+    color: var(--main-title-color);
+}
+
+/* projects portfolio */
+
+.potfolio-projects-item {
+    background: var(--main-title-color);
+    box-sizing: border-box;
+}
+.potfolio-projects-item-title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-color);
+}
+.potfolio-projects-item-text {
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--regular-text-colour);
+}
+
