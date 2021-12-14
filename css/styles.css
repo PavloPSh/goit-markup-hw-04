@@ -80,6 +80,7 @@ img {
     padding-top: 32px;
     padding-bottom: 32px;
     display: flex;
+    align-items: center;
 }
 .section {
     padding-top: 94px;
